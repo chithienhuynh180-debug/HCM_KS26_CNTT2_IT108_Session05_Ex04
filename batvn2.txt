@@ -1,0 +1,5 @@
+﻿Bài 2 : Chẩn đoán lỗi thực thi và xác định vị trí làm việc trong Terminal 
+* HĐH: Windows PowerShell
+* Lệnh tạo thư mục: mkdir drink_module
+* Di chuyển vào thư mục vừa tạo: cd drink_module
+* Tạo 2 file trống: New-Item -Itemtype File “coffee.txt”, “tea.txt”
