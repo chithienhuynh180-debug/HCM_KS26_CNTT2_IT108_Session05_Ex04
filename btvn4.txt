@@ -1,0 +1,15 @@
+﻿Phần 1: Bảng so sánh Absolute Path và Relative Path 
+Tiêu chí 
+	Absolute Path (Đường dẫn tuyệt đối) 
+	Relative Path (Đường dẫn tương đối) 
+	độ dài
+	Dài, ghi đầy đủ đường dẫn 
+	Ngắn gọn hơn 
+	tính di động
+	Thấp, phụ thuộc vào ổ đĩa và tên máy 
+	Cao hơn, dễ chia sẻ project cho người khác 
+	
+
+Phần 2: Lựa chọn giải pháp tối ưu và Giải thích 
+* chọn Relative Path (../data/logs.csv) vì đường dẫn này ngắn gọn, dễ quản lý và thuận tiện khi chia sẻ project cho người khác mà không phụ thuộc vào tên tài khoản hay ổ đĩa trên máy tính. 
+* Ý nghĩa ký hiệu ..: Đại diện cho thư mục cấp cha (lùi ra 1 cấp thư mục so với thư mục hiện tại). Khi chương trình thực thi, .. có tác dụng chỉ thị hệ thống lùi lại src  Đến thư mục D:\FarmProject\ (Thư mục gốc dự án)  trước khi trỏ tiếp vào thư mục (/data/logs.csv).
